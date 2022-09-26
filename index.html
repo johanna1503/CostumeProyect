@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ConsumeProyec</title>
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script type="text/javascript" src="MyScripDisfraz.js"></script>
+<body>
+    <h1>DISFRAZ</h1>
+    ID DISFRAZ<input type="number" id="idDisfraz"><br>
+    NOMBRE DISFRAZ<input type="text" id="nombreDisfraz"><br>
+    MODELO DISFRAZ<input type="number" id="modeloDisfraz"><br>
+    MARCA DISFRAZ<input type="text" id="marcaDisfraz"><br>
+    CATEGORIA_ID<input type="number" id="categoriaId"><br>
+
+    <button onclick="guardarDisfraz()">GUARDAR DISFRAZ</button>
+    <button onclick="editarDisfraz()">ACTUALIZAR DISFRAZ</button>
+    <button onclick="leerDisfraz()">TRAER DISFRAZ</button>
+
+
+    <div id="listaDeDisfraces">
+
+    </div>
+
+    <h1>CLIENTES</h1>
+    ID CLIENTE<input type="number" id="idCliente"><br>
+    NOMBRE CLIENTE<input type="text" id="nombreCliente"><br>
+    CORREO CLIENTE<input type="text" id="emailCliente"><br>
+    EDAD CLIENTE<input type="number" id="edad"><br>
+
+    <button onclick="guardarClientes()">GUARDAR CLIENTE</button>
+    <button onclick="editarClientes()">ACTUALIZAR CLIENTE</button>
+    <button onclick="leerClientes()">TRAER CLIENTE</button>
+
+
+    <div id="listaDeClientes">
+
+    </div>
+<hr>
+ 
+</body>
+</html>
